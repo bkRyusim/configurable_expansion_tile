@@ -200,7 +200,7 @@ class _ConfigurableExpansionTileState extends State<ConfigurableExpansionTile>
                   color: headerColor,
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
                       RotationTransition(
                         turns: _iconTurns,
